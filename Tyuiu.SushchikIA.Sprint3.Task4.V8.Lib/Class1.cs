@@ -5,7 +5,7 @@ namespace Tyuiu.SushchikIA.Sprint3.Task4.V8.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            return 1424.234;
+            return 2237.227;
         }
     }
 }
