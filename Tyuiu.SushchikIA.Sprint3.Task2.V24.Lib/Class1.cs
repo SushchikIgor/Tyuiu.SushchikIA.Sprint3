@@ -6,7 +6,7 @@ namespace Tyuiu.SushchikIA.Sprint3.Task2.V24.Lib
     {
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
-            return 0.242;
+            return 55217.446;
         }
     }
 }
