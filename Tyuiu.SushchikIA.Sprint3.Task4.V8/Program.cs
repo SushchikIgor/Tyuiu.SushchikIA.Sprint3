@@ -1,0 +1,22 @@
+﻿using Tyuiu.SushchikIA.Sprint3.Task4.V8.Lib;
+
+DataService ds = new DataService();
+Console.Title = "Спринт #3 | Выполнил: Сущик И.А. | ПИНб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #3                                                               *");
+Console.WriteLine("* Тема: Операции сравнения в C#                                           *");
+Console.WriteLine("* Задание #4                                                              *");
+Console.WriteLine("* Вариант #8                                                              *");
+Console.WriteLine("* Выполнил: Сущик Игорь Александрович | ПИНб-25-1                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("***************************************************************************");
+string x = Console.ReadLine();
+string y = Console.ReadLine();
+int numx = int.Parse(x);
+int numx = int.Parse(x);
+Console.WriteLine(ds.Calculate(numx, numx));
+Console.ReadLine();
