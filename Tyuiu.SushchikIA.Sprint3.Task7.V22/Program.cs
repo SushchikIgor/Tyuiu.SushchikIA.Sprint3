@@ -1,0 +1,21 @@
+﻿using Tyuiu.SushchikIA.Sprint3.Task7.V22.Lib;
+
+DataService ds = new DataService();
+Console.Title = "Спринт #3 | Выполнил: Сущик И.А. | ПИНб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #3                                                               *");
+Console.WriteLine("* Тема: Операции сравнения в C#                                           *");
+Console.WriteLine("* Задание #7                                                              *");
+Console.WriteLine("* Вариант #22                                                             *");
+Console.WriteLine("* Выполнил: Сущик Игорь Александрович | ПИНб-25-1                         *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("***************************************************************************");
+string x = Console.ReadLine();
+string y = Console.ReadLine();
+int numx = int.Parse(x);
+Console.WriteLine(ds.GetMassFunction(numx, numx));
+Console.ReadLine();
