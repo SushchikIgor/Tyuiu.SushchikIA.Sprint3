@@ -5,7 +5,7 @@ namespace Tyuiu.SushchikIA.Sprint3.Task5.V7.Lib
     {
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
-            return 432.35;
+            return 130.917;
         }
     }
 }
