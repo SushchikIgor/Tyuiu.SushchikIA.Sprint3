@@ -6,7 +6,8 @@ namespace Tyuiu.SushchikIA.Sprint3.Task0.V9.Lib
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
 
-            return 15.342;
+            return 0.43;
+;
         }
     }
 }
